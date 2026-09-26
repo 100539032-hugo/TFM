@@ -10,21 +10,11 @@ Phase 2 expands the design space to five dimensions by introducing regional thic
 
 | Parameter | Type | Domain / Value | Description |
 | --- | --- | --- | --- |
-| **Φ** | Variable | $[0^\circ, 90^\circ]$ | Common primary steering angle
-
- |
-| **Ψ** | Variable | $[0^\circ, 90^\circ]$ | Common secondary steering angle
-
- |
-| **$r_{Root}$** | Variable (Integer) | Defined by LHS bounds | Number of DD block repetitions at the root
-
- |
-| **$r_{Mid}$** | Variable (Integer) | Defined by LHS bounds | Number of DD block repetitions at midspan
-
- |
-| **$r_{Tip}$** | Variable (Integer) | Defined by LHS bounds | Number of DD block repetitions at the tip
-
- |
+| **Φ** | Variable | $[0^\circ, 90^\circ]$ | Common primary steering angle|
+| **Ψ** | Variable | $[0^\circ, 90^\circ]$ | Common secondary steering angle|
+| **$r_{Root}$** | Variable (Integer) | Defined by LHS bounds | Number of DD block repetitions at the root|
+| **$r_{Mid}$** | Variable (Integer) | Defined by LHS bounds | Number of DD block repetitions at midspan|
+| **$r_{Tip}$** | Variable (Integer) | Defined by LHS bounds | Number of DD block repetitions at the tip|
 
 *Constraint:* Monotonic physical tapering $r_{Root} \ge r_{Mid} \ge r_{Tip}$ must be satisfied.
 
@@ -32,18 +22,10 @@ Phase 2 expands the design space to five dimensions by introducing regional thic
 
 | Output | Description |
 | --- | --- |
-| **$m$ (kg)** | Total structural mass
-
- |
-| **$u_{max}$ (mm)** | Maximum displacement
-
- |
-| **$U$ (J)** | Total strain energy (global stiffness)
-
- |
-| **$\lambda_b$** | First linear buckling load factor
-
- |
+| **$m$ (kg)** | Total structural mass|
+| **$u_{max}$ (mm)** | Maximum displacement|
+| **$U$ (J)** | Total strain energy (global stiffness)|
+| **$\lambda_b$** | First linear buckling load factor|
 
 **File Structure**
 
