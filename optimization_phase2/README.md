@@ -1,6 +1,4 @@
-Aquí tienes la sección del `README` adaptada para la Fase 2, siguiendo exactamente la misma estructura, formato y nivel de detalle que tu plantilla, e incorporando la información técnica específica del Capítulo 6.3 de tu memoria (como el *tapering*, el kernel ARD Matérn 5/2, el *infill* adaptativo y el frente de Pareto mediante Monte Carlo).
 
----
 
 ### Phase 2 Optimization: Five Design Variables and Tapering
 
