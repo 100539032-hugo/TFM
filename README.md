@@ -25,12 +25,4 @@ The code is structured to replicate the three incremental phases of the research
 2.  **Phase 2 (Symmetric Tapering):** Introduction of a 5D design space to control spanwise thickness reduction (Root, Mid, Tip) while maintaining strict symmetry between the upper and lower skins.
 3.  **Phase 3 (Independent 10D Tailoring):** Complete decoupling of the compression-dominated upper skin and tension-dominated lower skin into 10 independent variables, yielding the most highly tailored and lightweight designs.
 
-## 🛠️ Repository Structure
-
-*   `/Python`: Pre-processing scripts to translate continuous variables into integer DD stacking sequences, assign laminate properties, and generate batch `.tcl` execution files.
-*   `/Tcl`: Scripts executed within Altair HyperMesh to automate mesh handling, material assignment, and solver configuration.
-*   `/MATLAB`: Mathematical implementation of the GPR/Kriging surrogate models, cross-validation diagnostics, optimization algorithms (GA, fmincon), and data visualization (response surfaces, parity plots).
-*   `/FEA_Models`: Base structural models (`.hm` and `.fem` formats) ready to be iterated by the automated workflow.
-
-## 📝 License
 This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License (CC BY-NC-ND).
